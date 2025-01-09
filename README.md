@@ -44,6 +44,7 @@ Or specify them manually by editing the Marzban `.env` file.
 ```
 CUSTOM_TEMPLATES_DIRECTORY="/var/lib/marzban/templates/"
 SUBSCRIPTION_PAGE_TEMPLATE="subscription/index.html"
+XRAY_SUBSCRIPTION_URL_PREFIX = "https://subdomain.yourdomain.com:port" (The URL of your subscription without path)
 ```
 3. Restart Marzban to apply the changes.
 ```
